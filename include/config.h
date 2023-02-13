@@ -2,7 +2,7 @@
 #define DEBUG_MSG(...) Serial.printf(__VA_ARGS__)
 
 // Custom settings
-char baseMQTT[] = "home/test";  // Base
+char baseMQTT[] = "home/garage";  // Base
 char area[] = "freezer"; // area in base
 char state[] = "state"; // Refer comments below
 
@@ -19,7 +19,7 @@ char state[] = "state"; // Refer comments below
 #define MQTT_USER "atkmqtt"
 // #define MQTT_USER "bbsmqtt"
 #define MQTT_PASSWORD "ferret11"
-#define MQTT_SERVER "192.168.1.150"
+#define MQTT_SERVER "haatkinson.local"
 // #define MQTT_SERVER "192.168.22.136"
 
 #define MAX_RETRY_BEFORE_REBOOT 5 // Number of connection retries before rebooting the system
